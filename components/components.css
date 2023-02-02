@@ -1,23 +1,51 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(231, 230, 230);
+    font-family: 'Cairo';
 }
 
 .nav {
-    display: flex;
-    flex-direction: row;
-    background-color: aliceblue;
+    background-color: #F5F6FF;
     max-width: 40rem;
     justify-content: space-between;
     padding: .5rem;
-    border-radius: 4px;
+    border-radius: 6px;
 }
-
 
 .nav-items {
     display: flex;
     margin-left: 50%;
-    text-align: center;
     justify-content: space-around;
+}
+
+.nav-bold {
+    font-weight: bold;
+}
+
+.longmodul {
+    background-color: #F5F6FF;
+    max-width: fit-content;
+    padding: .2rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    border-radius: 6px;
+}
+
+.midmodul {
+    background-color: #F5F6FF;
+    max-width: fit-content;
+    padding: .2rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    border-radius: 6px;
+}
+
+.shortmodul {
+    background-color: #F5F6FF;
+    max-width: fit-content;
+    padding: .2rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    border-radius: 6px;
 }
