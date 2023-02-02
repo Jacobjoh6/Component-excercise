@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(194, 194, 194);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    max-width: 40rem;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: 4px;
+}
+
+
+.nav-items {
+    display: flex;
+    margin-left: 50%;
+    text-align: center;
+    justify-content: space-around;
+}
