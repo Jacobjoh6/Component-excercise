@@ -4,7 +4,7 @@ body {
     background-color: rgb(231, 230, 230);
     font-family: 'Cairo';
 }
-
+/* NAVIGATION */
 .nav {
     background-color: #F5F6FF;
     max-width: 40rem;
@@ -22,7 +22,7 @@ body {
 .nav-bold {
     font-weight: bold;
 }
-
+/* LONG MODULE */
 .longmodul {
     background-color: #F5F6FF;
     max-width: fit-content;
@@ -31,7 +31,7 @@ body {
     padding-right: .3rem;
     border-radius: 6px;
 }
-
+/* MEDIUM MODULE */
 .midmodul {
     background-color: #F5F6FF;
     max-width: fit-content;
@@ -40,7 +40,7 @@ body {
     padding-right: .3rem;
     border-radius: 6px;
 }
-
+/* SHORT MUDULE */
 .shortmodul {
     background-color: #F5F6FF;
     max-width: fit-content;
@@ -48,4 +48,142 @@ body {
     padding-left: .3rem;
     padding-right: .3rem;
     border-radius: 6px;
+}
+/* COURSE CARD */
+.card {
+    background-color:#666A73;
+    max-width: 19rem;
+    max-height: 35rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.card-top {
+    width: auto;
+    background-color: #666A73;
+    margin-bottom: 80%
+}
+
+.card-bottom {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #F5F6FF;
+}
+
+.card-title {
+    font-style:normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 130%;
+    margin-left: 1rem
+}
+
+.card-text {
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: normal;
+}
+
+.card-opt {
+    background-color: rgba(20, 22, 25, 0.08);
+    text-align: center;
+    border-style: solid;
+    border-width: .5px;
+    border-color: white;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#card-first {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#card-last {
+    margin-bottom: 1rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+/* BUTTON */
+.button {
+    font-size: 16px;
+    line-height: 130%;
+    width: 34rem;
+    height: 3.44rem;
+    background-color: #EA4848;
+    color: #F3F5F6;
+    border: none;
+    border-radius: 4px;
+}
+/* MODULE GOAL */
+.goal-module {
+    background-color: #E6EBF3;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 43rem;
+    height: 10.44rem;
+    padding: 16px 16px 32px;
+    gap: 32px;
+    border-radius: 4px;
+}
+
+.goal-nr {}
+
+.goal-desc {
+    text-align: start;
+    
+}
+
+.goal-title {
+    font-size: 22px;
+}
+
+.goal-span {
+    background-color: rgb(255, 255, 255);
+}
+/* VIDEO MODULE */
+.vid-modul {
+    background-color: #F5F6FF;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 33rem;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* ANSWER MODULE */
+.answer-modul {
+    background-color: #F5F6FF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    height: 2.12rem;
+    width: 33rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-answer {
+    background-color: #666A73;
+    width: 25%;
+    text-align: center;
+}
+
+.second-answer {
+    width: 25%;
+    text-align: center;
+    border-right: 1px #666A73;
+}
+
+.third-answer {
+    width: 25%;
+    text-align: center;
+}
+
+.fourth-answer {
+    width: 25%;
+    text-align: center;
 }
