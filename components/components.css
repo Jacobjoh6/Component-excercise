@@ -168,6 +168,7 @@ body {
 
 .first-answer {
     background-color: #666A73;
+    color: whitesmoke;
     width: 25%;
     text-align: center;
 }
@@ -186,4 +187,97 @@ body {
 .fourth-answer {
     width: 25%;
     text-align: center;
+}
+
+/* Toggle module */
+
+.toggle-modul {
+    display: flex;
+    gap: 1rem;
+}
+
+.toggle-h3 {
+    font-weight: 100;
+}
+
+/* Slider module */
+
+.slider-modul {
+    max-width: 34rem;
+    max-height: 6.75rem;
+    background-color: #F3F5F6;
+    border-radius: 4px;
+}
+
+.slider-h2 {
+    font-weight: 250;
+    margin-left: 1rem;
+
+}
+
+.slider-container {
+   display: flex;
+   margin-left: 1rem;
+   margin-top: -1rem;
+
+}
+
+.slider {
+    width: 22rem;
+}
+
+/* Big card module */
+
+.big-card-modul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: 48rem;
+    height: 30rem;
+    background-color: #E0D6FF;
+    border-radius: 8px;
+}
+
+.big-card-left {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.left-title {
+    font-size: large;
+    font-weight: 100;
+}
+
+.left-small-text {
+    font-weight: 10;
+    font-size: 1rem;
+}
+
+.big-card-right {
+    grid-area: 1 / 2 / 2 / 5;
+}
+
+.right-title {
+    font-size: 2.3rem;
+    font-weight: 150;
+    margin-top: 1rem; 
+    line-height: 45px;
+}
+
+#long-goal-comp {
+    margin-top: 1.5rem;
+}
+
+.long-text {
+    max-width: auto;
+}
+
+#vid-modul-comp {
+    gap: 1rem;
+}
+
+#right-answer-modul {
+    /* padding: 1rem; */
+    margin-bottom: -4rem;
 }
