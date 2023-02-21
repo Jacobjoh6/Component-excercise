@@ -13,6 +13,12 @@ body {
     border-radius: 6px;
 }
 
+.nav-hr {
+    width: .01px;
+    height: 20px;
+    background-color: black;
+}
+
 .nav-items {
     display: flex;
     margin-left: 50%;
@@ -189,6 +195,12 @@ body {
     text-align: center;
 }
 
+.answer-hr {
+    width: .01px;
+    height: auto;
+    background-color: black;
+}
+
 /* Toggle module */
 
 .toggle-modul {
@@ -242,11 +254,13 @@ body {
 
 .big-card-left {
     grid-area: 1 / 1 / 2 / 2;
+    margin-left: 1rem;
 }
 
 .left-title {
     font-size: large;
     font-weight: 100;
+    /* margin-left: 1rem; */
 }
 
 .left-small-text {
